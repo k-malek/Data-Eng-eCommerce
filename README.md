@@ -31,7 +31,7 @@ This project is designed as a **portfolio piece for Data Engineering roles**, sh
 ## **How to Use**  
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/ecomm-data-pipeline.git
+   git clone https://github.com/k-malek/Data-Eng-eCommerce.git
    cd ecomm-data-pipeline
    ```  
 2. **Set up a virtual environment and install dependencies**  
@@ -46,8 +46,4 @@ This project is designed as a **portfolio piece for Data Engineering roles**, sh
    ```  
 
 ## **Why This Project?**  
-This project demonstrates essential **Data Engineering skills** and serves as a **strong addition to your portfolio** when applying for Data Engineering positions. It highlights **real-world data processing scenarios** and best practices in data pipeline development.  
-
----
-
-Would you like any adjustments or additions to better align with your project vision? 🚀
+This project demonstrates essential **Data Engineering skills** and serves as a **strong addition to your portfolio** when applying for Data Engineering positions. It highlights **real-world data processing scenarios** and best practices in data pipeline development. 
