@@ -93,8 +93,3 @@ def extract_profiles():
     except Exception as e:
         logger.error('Unexpected error: %s', e)
         raise
-
-data1 = extract_transactions()
-data2 = extract_profiles()
-print(data1.head())
-print(data2.head())
