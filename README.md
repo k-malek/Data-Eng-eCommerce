@@ -11,7 +11,7 @@ This project is designed as a **portfolio piece for Data Engineering roles**, sh
 ✅ **Testing & Logging** – Implements data validation and unit tests to ensure pipeline reliability.  
 
 ## **Tech Stack**  
-🔹 **Python** (`pandas`, `sqlalchemy`, `boto3`, `pytest`)  
+🔹 **Python** (`pandas`, `sqlalchemy`, `boto3`, `pytest`, `fastparquet`)  
 🔹 **PostgreSQL** (or any relational database)  
 🔹 **AWS S3** (for cloud storage)  
 🔹 **Docker** (optional, for containerized execution)  
@@ -19,19 +19,21 @@ This project is designed as a **portfolio piece for Data Engineering roles**, sh
 ## **Project Structure**  
 ```
 📂 ecomm_data_pipeline
- ├── 📂 data/            # Raw sample datasets (CSV, JSON)
- ├── 📂 src/             # Python scripts for ETL process
- ├── 📂 tests/           # Unit tests and data validation
- ├── 📂 docs/            # Documentation and architecture diagrams
- ├── README.md           # Project overview and setup guide
- ├── requirements.txt    # Required Python dependencies
- ├── config.yaml         # Configuration file (database, AWS credentials)
+ ├── 📂 data/
+ │    ├── 📂 raw/            # Original source data (CSV, JSON)
+ │    ├── 📂 intermediate/   # Temporary storage for ingested data(Parquet)
+ ├── 📂 logs/                # Log files for ingestion and processing
+ ├── 📂 src/                 # Python source code
+ │    ├── extract.py         # Data ingestion script
+ ├── README.md               # Project documentation
+ ├── requirements.txt        # Required dependencies
+ ├── config.yaml             # Configuration file (database, AWS credentials)
 ```
 
 ## **How to Use**  
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/k-malek/Data-Eng-eCommerce.git
+   git clone https://github.com/yourusername/ecomm-data-pipeline.git
    cd ecomm-data-pipeline
    ```  
 2. **Set up a virtual environment and install dependencies**  
@@ -40,10 +42,10 @@ This project is designed as a **portfolio piece for Data Engineering roles**, sh
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```  
-3. **Run the pipeline**  
+3. **Run the data ingestion script**  
    ```bash
-   python src/main.py
+   python src/extract.py
    ```  
 
 ## **Why This Project?**  
-This project demonstrates essential **Data Engineering skills** and serves as a **strong addition to your portfolio** when applying for Data Engineering positions. It highlights **real-world data processing scenarios** and best practices in data pipeline development. 
+This project demonstrates essential **Data Engineering skills** and serves as a **strong addition to your portfolio** when applying for Data Engineering positions. It highlights **real-world data processing scenarios** and best practices in data pipeline development.

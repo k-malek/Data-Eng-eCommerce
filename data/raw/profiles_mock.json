@@ -1,0 +1,51 @@
+[
+    {
+        "user_id": 501,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@email.com",
+        "signup_date": "2023-05-12",
+        "location": "New York, USA"
+    },
+    {
+        "user_id": 502,
+        "name": "Bob Smith",
+        "email": "bob.smith@email.com",
+        "signup_date": "2022-08-21",
+        "location": "San Francisco, USA"
+    },
+    {
+        "user_id": 503,
+        "name": "Charlie Brown",
+        "email": "charlie.brown@email.com",
+        "signup_date": "2021-12-01",
+        "location": "Los Angeles, USA"
+    },
+    {
+        "user_id": 504,
+        "name": "Diana Prince",
+        "email": "diana.prince@email.com",
+        "signup_date": "2023-02-15",
+        "location": "Chicago, USA"
+    },
+    {
+        "user_id": 505,
+        "name": "Ethan Hunt",
+        "email": "ethan.hunt@email.com",
+        "signup_date": "2020-07-30",
+        "location": "Houston, USA"
+    },
+    {
+        "user_id": 506,
+        "name": "Fiona Gallagher",
+        "email": "fiona.gallagher@email.com",
+        "signup_date": "2021-11-18",
+        "location": "Boston, USA"
+    },
+    {
+        "user_id": 507,
+        "name": "George Orwell",
+        "email": "george.orwell@email.com",
+        "signup_date": "2019-03-25",
+        "location": "Seattle, USA"
+    }
+]

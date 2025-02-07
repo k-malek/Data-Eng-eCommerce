@@ -1,0 +1,17 @@
+# Core Libraries
+pandas==2.2.3
+numpy==2.2.2
+
+# Database Interaction
+sqlalchemy==2.0.37
+psycopg2-binary==2.9.10  # PostgreSQL connector
+
+# Cloud Integration (AWS)
+boto3==1.36.14  # AWS SDK for S3 storage
+
+# Testing & Validation
+pytest==8.3.4  # Unit testing framework
+
+
+# Local Data Storage
+fastparquet==2024.11.0
