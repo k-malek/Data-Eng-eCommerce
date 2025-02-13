@@ -47,5 +47,54 @@
         "email": "george.orwell@email.com",
         "signup_date": "2019-03-25",
         "location": "Seattle, USA"
+    },
+    {
+        "user_id": 507,
+        "name": "George Orwell",
+        "email": "george.orwell@email.com",
+        "signup_date": "2019-03-25",
+        "location": "Seattle, USA"
+    },
+    {
+        "user_id": "516",
+        "name": "George Orell",
+        "email": "george.orwl@email.com",
+        "signup_date": "2044-03-25",
+        "location": "Seale, USA"
+    },
+    {
+        "user_id": 508,
+        "name": "",
+        "email": "gg5454@email.com",
+        "signup_date": "2019-03-25",
+        "location": "Seattle, USA"
+    },
+    {
+        "user_id": 509,
+        "name": "John MyDateIsMessedUp",
+        "email": "george.orwell@email.com",
+        "signup_date": "20-03-:5",
+        "location": "Seattle, USA"
+    },
+    {
+        "user_id": 510,
+        "name": "Hannah Montana NoLocation",
+        "email": "hannah.montana@dups.com",
+        "signup_date": "2019-03-25",
+        "location": ""
+    },
+    {
+        "user_id": 511,
+        "name": "Hannah Montana NoMail",
+        "email": "",
+        "signup_date": "2019-03-25",
+        "location": "Montana, USA (duh!)"
+    },
+    {
+        "user_id": 512,
+        "name": "Smash Mouth",
+        "email": "smash.m@email.com",
+        "signup_date": "2019-03-25",
+        "location": "south virginia"
     }
 ]
