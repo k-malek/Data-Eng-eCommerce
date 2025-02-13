@@ -20,3 +20,4 @@ order_id,user_id,product,category,price,quantity,timestamp
 1017,503,Wireless Charger,Accessories,39.99,2,2024-01-19 17:1:58
 1018,503,Wireless Charger,accessories,39.99,2,2024-01-109 1:7:18
 1019,503,Wireless Chrger,Accessories,,2,2024-01-19 17:1:58
+1020,502,very expensive thingy,Accessories,9900.00,2,2024-01-19 17:14:58

@@ -51,6 +51,7 @@ def clean_transactions(data: pd.DataFrame) -> pd.DataFrame:
         logger.info('Converted columns to appropriate data types in transaction data.')
 
         # Additional cleaning steps
+        data['product']=data['product'].str.title()
         data['category']=data['category'].str.title()
         logger.info('Additional cleaning steps applied to transaction data.')
 
