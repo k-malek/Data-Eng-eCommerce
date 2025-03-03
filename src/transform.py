@@ -18,6 +18,7 @@ def transform_transactions(data: pd.DataFrame) -> pd.DataFrame:
     logger=get_logger('transform')
     
     data['total_price'] = data['quantity'] * data['price']
+
     logger.info('Transformation performed on transaction data.')
     return data
 

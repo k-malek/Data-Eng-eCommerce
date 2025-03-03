@@ -1,6 +1,7 @@
 from src.extract import extract_transactions, extract_profiles
 from src.clean import clean_transactions, clean_profiles
 from src.transform import consolidate_data
+from tabulate import tabulate
 
 # Extract the data
 data_transactions = extract_transactions()
@@ -14,9 +15,6 @@ except ValueError as e:
 data_transactions = clean_transactions(data_transactions)
 data_profiles = clean_profiles(data_profiles)
 
-print(data_transactions)
-print(data_profiles)
-
 # Transform the data
 data = consolidate_data(data_transactions, data_profiles)
-print(data)
+print(tabulate(data, headers='keys', tablefmt='fancy_grid'))
